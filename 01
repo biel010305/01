@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1em;
+      padding: 1em;
+    }
+    .produto {
+      background: white;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    .produto h2 {
+      font-size: 1.2em;
+      margin: 0.5em 0;
+    }
+    .produto p {
+      font-size: 1em;
+      color: #555;
+    }
+    .botao {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 0.5em 1em;
+      margin-top: 0.5em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .botao:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Minha Loja Online</h1>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/250" alt="Produto 1">
+      <h2>Produto 1</h2>
+      <p>R$ 49,90</p>
+      <button class="botao">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/250" alt="Produto 2">
+      <h2>Produto 2</h2>
+      <p>R$ 79,90</p>
+      <button class="botao">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/250" alt="Produto 3">
+      <h2>Produto 3</h2>
+      <p>R$ 99,90</p>
+      <button class="botao">Comprar</button>
+    </div>
+  </section>
+</body>
+</html>
+
+
+Aqui está o código de um site simples de loja online, com layout responsivo (funciona no computador e no celular). Você pode copiar esse código para um arquivo com o nome index.html e abrir no seu navegador.
+
+
